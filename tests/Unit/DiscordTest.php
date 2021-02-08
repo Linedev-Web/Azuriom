@@ -28,13 +28,13 @@ class DiscordTest extends TestCase
             ->content('Hello World!')
             ->username('Wampus')
             ->tts()
-            ->avatarUrl('https://discord.com')
+            ->avatarUrl('https://discordapp.com')
             ->addEmbed($embed);
 
         $this->assertSame([
             'content' => 'Hello World!',
             'username' => 'Wampus',
-            'avatar_url' => 'https://discord.com',
+            'avatar_url' => 'https://discordapp.com',
             'tts' => true,
             'embeds' => [
                 [

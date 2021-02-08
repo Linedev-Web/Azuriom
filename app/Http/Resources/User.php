@@ -5,7 +5,6 @@ namespace Azuriom\Http\Resources;
 use Azuriom\Http\Resources\Role as RoleResource;
 use Illuminate\Http\Resources\Json\JsonResource;
 
-/** @mixin \Azuriom\Models\User */
 class User extends JsonResource
 {
     /**

@@ -9,9 +9,7 @@
             time_24hr: true,
             enableTime: true,
             enableSeconds: true,
-            minuteIncrement: 1,
-            // Prevent error with MySQL
-            maxDate: '2037-31-12',
+            minuteIncrement: 1
         });
     </script>
 @endpush
